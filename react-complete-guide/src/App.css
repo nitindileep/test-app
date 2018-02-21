@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+.Box {
+  border: 1px solid #ccc;
+  border-radius: 20px 0px 0px 20px;
+  display: inline-block;
+  height: 25px;
+  background-color: inherit;
+  border-color: inherit;
+  border-right-color: #ccc;
+  color: inherit;
+}
+.FilterHeading {
+  position: relative;
+  font-family: Verdana, Geneva, sans-serif;
+  left: 1%;
+  margin: 10px 10px 10px 10px;
+  text-transform: uppercase;
+}
+.FilterAdd {
+  float: right;
+  left: 50px;
+  border: 2px solid #17bae2;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #17bae2;
+  font-weight: bold;
+}
+.FilterAdd:hover {
+  color: #e4f7fc;
+  background-color: #17bae2;
+}
+.Text {
+  margin: 15px 15px 15px 15px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: 7%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10px;
+}
+.Container {
+  display: inline-flex;
+  margin: 5px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #f0f3f6;
+  border-color: #ccc;
+}
+.Container:hover {
+  background-color: #17bae2;
+  border-color: #17bae2;
+  color: #e4f7fc;
+}
+.Close1 {
+  border: 1px solid #ccc;
+  border-radius: 0px 20px 20px 0px;
+  display: inline-block;
+  background-color: inherit;
+  border-color: inherit;
+  border-left-color: #ccc;
+}
+.Close2 {
+  margin: 7px 10px 7px 7px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: 7%;
+  opacity: 0.3;
+  font-weight: bold;
+  font-size: 20px;
+  color: inherit;
+}
+.TopContainer {
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  border: 1px ridge;
+  width: 300px;
+  left: 100px;
+  top: 100px;
+}
+.Wrapper {
+  margin: 10px 10px 10px 10px;
+}
+
+.FilterSeperator {
+  width: 80%;
+  background-color: #d1d1d1;
+  
+}
