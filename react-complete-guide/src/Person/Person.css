@@ -1,0 +1,68 @@
+.Person{
+	width: 50%;
+	margin: 8px auto;
+	border: 1px solid #eee;
+	border-radius: 7px;
+	box-shadow: 0 7px 5px #ccc;
+	padding: 16px;
+	display: inline-flex;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	position: relative;
+	height: 10%;
+}
+.Person:hover{
+	border: 2px solid #17BAE2;
+}
+.Right{
+	width: 50%;
+	display: inline-flex;
+	font-size: 10px;
+	margin-right:1em;
+}
+.Company{
+	float: left;
+	width:50%;
+	color: #17BAE2;
+	text-align: left;
+	margin-left:1em;
+}
+.Retail{
+	width: 40%;
+	font-size: 11px;
+	color: #272838;
+	text-align: left;
+}
+.Place{
+	width:40%;
+	font-size: 11px;
+	color: #272838;
+	text-align: left;
+}
+.Options{
+	width: 20%;
+	display: inline-flex;
+}
+.More{
+	vertical-align: top;
+	width:50%;
+	color:#8F97AB;
+}
+.More b{
+	font-size: 25px;
+}
+.Fav b{
+	font-size: 25px;
+}
+.Fav{
+	vertical-align: top;
+	width:50%;
+	color:#8F97AB;
+}
+a, u {
+    text-decoration: none;
+    color:#8F97AB;
+ }
+ .SocialMedia{
+ 	display: inline-flex;
+ }

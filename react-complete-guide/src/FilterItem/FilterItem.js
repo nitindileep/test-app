@@ -1,10 +1,10 @@
 import React from 'react'
 
-const FilterItem = (params) => {
+const FilterItem = (props) => {
     return (
         <div className="Container">
             <div className="Box">
-                <span className="Text">{params.area}</span>
+                <span className="Text">{props.area}</span>
             </div>
             <div className="Close1">
                 <span className="Close2">&times;</span>
